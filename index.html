@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <title>Project-2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Josefin+Sans:wght@100&family=Poppins:wght@300&family=Red+Hat+Text:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero">
+        <h2>Wedding Invitation Designer</h2>
+        <div class="btn-box">
+            <button id="btn1" onclick="openStyle1()">Style-1</button>
+            <button id="btn2" onclick="openStyle2()">Style-2</button>
+            <button id="btn3" onclick="openStyle3()">Style-3</button>
+        </div>
+        <div id="content1" class="content">
+            <div class="content-left">
+                <h1>Style-1</h1>
+                <div class="input-box">
+                    <label class="details">First Name</label>
+                    <input type="text" id="text-field" placeholder="First Name" oninput="MyFunction()">
+                </div>
+                <div class="input-box">
+                    <label class="details">Second Name</label>
+                    <input type="text" id="text-field" placeholder="Second Name" oninput="MyFunction()">
+                </div>
+                <div class="input-box">
+                    <label class="details">Last Name</label>
+                    <input type="text" id="text-field" placeholder="Last Name" oninput="MyFunction()">
+                </div>
+                <div class="input-box">
+                    <label class="details">Date</label>
+                    <input type="text" id="text-field" placeholder="Date" oninput="MyFunction()">
+                </div>
+                <div class="input-box">
+                    <label class="details">Location</label>
+                    <input type="text" id="text-field" placeholder="Location" oninput="MyFunction()">
+                </div>
+                <!--<button onclick="myFunction()">Submit</button>-->
+            </div>
+            <div class="content-right">
+                <img src="bg1.jpg" alt="bg1">
+                <p id="output"></p>       
+            </div>
+        </div>
+        <div id="content2" class="content">
+            <div class="content-left">
+                <h1>Style-2</h1>
+                <div class="input-box">
+                    <label class="details">First Name</label>
+                    <input type="text" placeholder="First Name" required>
+                </div>
+                <div class="input-box">
+                    <label class="details">Second Name</label>
+                    <input type="text" placeholder="Second Name" required>
+                </div>
+                <div class="input-box">
+                    <label class="details">Last Name</label>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <div class="input-box">
+                    <label class="details">Date</label>
+                    <input type="text" placeholder="Date" required>
+                </div>
+                <div class="input-box">
+                    <label class="details">Location</label>
+                    <input type="text" placeholder="Location" required>
+                </div>
+                <!--<button onclick="myFunction()">Submit</button>-->
+            </div>
+            <div class="content-right">
+                <img src="bg2.jpg" alt="bg2">
+            </div>
+        </div>
+        <div id="content3" class="content">
+            <div class="content-left">
+                <h1>Style-3</h1>
+                <div class="input-box">
+                    <label class="details">First Name</label>
+                    <input type="text" placeholder="First Name" required>
+                </div>
+                <div class="input-box">
+                    <label class="details">Second Name</label>
+                    <input type="text" placeholder="Second Name" required>
+                </div>
+                <div class="input-box">
+                    <label class="details">Last Name</label>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <div class="input-box">
+                    <label class="details">Date</label>
+                    <input type="text" placeholder="Date" required>
+                </div>
+                <div class="input-box">
+                    <label class="details">Location</label>
+                    <input type="text" placeholder="Location" required>
+                </div>
+                <!--<button onclick="myFunction()">Submit</button>-->
+            </div>
+            <div class="content-right">
+                <img src="bg3.jpg" alt="bg3">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
